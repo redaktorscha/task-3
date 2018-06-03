@@ -353,6 +353,7 @@
     border-radius: 5px;
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 }
 
 .grey-circle {
@@ -846,9 +847,10 @@
     justify-content: center;
 }
 
-.anne-photo img {
-    width: 150px;
-    height: 150px;
+.anne-photo {
+    background-image: url(anne_big.jpg);
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     box-shadow: 0 0 0 3px #9099b7;
 }
