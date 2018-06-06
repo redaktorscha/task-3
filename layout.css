@@ -139,6 +139,11 @@
     font-weight: bold;
 }
 
+.block1 img {
+    width: 30px;
+    height: 30px;
+}
+
 .color-teal {
     background: #11a8ab;
 }
@@ -315,6 +320,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bigblock img {
+    width: 30px;
+    height: 30px;
 }
 
 .stat-line {
@@ -526,6 +536,10 @@
     justify-content: center;
 }
 
+.square-block img {
+    width: 25px;
+    height: 25px;
+}
 .share {
     height: 100%;
     padding-left: 15px;
@@ -579,7 +593,9 @@
 }
 
 .icon {
-    background-image: url(account.png);
+    background-image: url(messages.png);
+    width: 20px;
+    height: 20px;
     background-color: #50587c;
     background-repeat: no-repeat;
     background-position: 5px;
@@ -587,8 +603,10 @@
 }
 
 .icon2 {
-    background-image: url(account.png);
+    background-image: url(lock.png);
     background-color: #50587c;
+    width: 25px;
+    height: 25px;
     background-repeat: no-repeat;
     background-position: 5px;
     padding-left: 20px;
