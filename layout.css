@@ -102,10 +102,9 @@
 .menu-box {
     width: 280px;
     height: 360px;
-    background: #394165;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 4px;
     
@@ -114,10 +113,12 @@
 .menu-block {
     width: 280px;
     height: 57px;
+    background: #394165;
+    background-clip: padding-box;
+    border-bottom: 1px solid transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #1f253d;
     font-weight: normal;
     font-size: 15px;
 }
@@ -211,7 +212,8 @@
     height: 100%;
     background: #50587c;
     border-top: 4px solid #e64c65;
-    border-right: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-right: 1px solid transparent;
     border-radius: 0 0 0 4px;
     display: flex;
     flex-flow: column wrap;
@@ -225,7 +227,8 @@
     height: 100%;
     background: #50587c;
     border-top: 4px solid #11a8ab;
-    border-right: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-right: 1px solid transparent;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -238,7 +241,8 @@
     height: 100%;
     background: #50587c;
     border-top: 4px solid #fcb150;
-    border-right: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-right: 1px solid transparent;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -484,7 +488,8 @@
     height: 100%;
     background: #50587c;
     border-top: 4px solid #e64c65;
-    border-right: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-right: 1px solid transparent;
     border-radius: 0 0 0 4px;
     display: flex;
     justify-content: center;
@@ -496,7 +501,8 @@
     height: 100%;
     background: #50587c;
     border-top: 4px solid #11a8ab;
-    border-right: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-right: 1px solid transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,7 +531,7 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 4px;
 }
@@ -542,7 +548,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #394165;
-    border-bottom: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-bottom: 1px solid transparent;
     color: #fff;
     font-weight: normal;
     letter-spacing: 0.5px;
@@ -607,7 +614,8 @@
     width: 280px;
     height: 175px;
     background-color: #394264;
-    border-bottom: 1px solid #1f253d;
+    background-clip: padding-box;
+    border-bottom: 1px solid transparent;
     font-size: 15px;
     font-weight: normal;
 }
