@@ -1,18 +1,12 @@
 .wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin-left: auto;
     margin-right: auto;
     background: #1f253d;
     width: 1100px;
-    height: 1730px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 100px;
     font-family: Ubuntu;
     color: white;
@@ -22,20 +16,25 @@
     position: relative;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 900px;
     height: 80px;
     background: #394165;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .frame {
-    position: relative;
     width: 900px;
-    height: 1600px;
     display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.frame-column {
+    width: 33,3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .header-block {
@@ -101,12 +100,12 @@
 
 .menu-box {
     width: 280px;
-    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin-bottom: 30px;
     
 }
 
@@ -134,7 +133,7 @@
 
 .block-top {
     width: 280px;
-    height: 57px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,7 +141,8 @@
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
-}
+    
+   }
 
 .block-top img {
     width: 20px;
@@ -179,7 +179,10 @@
     margin-left: 10px;
 }
 
-
+.progress-value {
+    display: inline-block;
+    
+}
 
 .oval-grey {
     width: 40px;
@@ -196,15 +199,22 @@
 
 .june {
     width: 280px;
-    height: 400px;
-    padding: 10px 0 0 0;
     display: flex;
-    position: relative;
     flex-flow: column wrap;
     align-items: center;
     justify-content: flex-start;
-    background-color: #394264;
     border-radius: 4px 4px 0 0;
+    margin-bottom: 30px;
+}
+
+.june-middle {
+    width: 280px;
+    height: 250px;
+    background-color: #394264;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
 }
 
 .june-bottom1 {
@@ -279,7 +289,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .diagram img {
@@ -289,10 +299,8 @@
 }
 
 .june-bottom {
-    position: absolute;
-    bottom: 0;
     width: 280px;
-    height: 70px;
+    height: 75px;
     display: flex;
     font-size: 15px;
     display: flex;
@@ -300,10 +308,10 @@
 
 .graph {
     width: 280px;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 30px;
 }
 
 .graph-bottom {
@@ -325,10 +333,14 @@
 }
 
 .buttons {
-      display: flex;
-      margin-top: 10px;
-      
+    width: 220px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;      
 }
+
 
 .time-button {
     width: 70px;
@@ -350,10 +362,11 @@
 
 .months {
     width: 95%;
-    height: 50%;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 30px;
         
 }
     
@@ -370,26 +383,25 @@
 }
 .video {
     width: 280px;
-    height: 180px;
     display: flex;
     background-image: url(jessie.png);
     background-size: 280px;
     background-repeat: no-repeat;
     border-radius: 5px;
     box-shadow: inset 0 0 4px 1px #50587c;
+    margin-bottom: 30px;
   }
 
 
 .stat {
     width: 280px;
-    height: 110px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .bigblock {
     width: 70px;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,14 +443,14 @@
 .anne {
     position: relative;
     width: 280px;
-    height: 385px;
     background: #394165;
     border-radius: 4px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .anne-text {
@@ -448,7 +460,8 @@
     margin-top: 15px;
     margin-bottom: 15px;
     letter-spacing: 1.5px;
-
+    width: 240px;
+    line-height: 3em;
 }
 
 .grey-circle {
@@ -475,12 +488,11 @@
 }
 
 .anne-bottom {
-    position: absolute;
-    bottom: 0;
     width: 280px;
     height: 55px;
     display: flex;
     font-size: 15px;
+    margin-top: 25px;
 }
 
 .bottom1 {
@@ -528,12 +540,12 @@
 
 .weather {
     width: 280px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .font-normal {
@@ -600,6 +612,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .block-name {
@@ -612,7 +625,6 @@
     display: flex;
     flex-flow: row wrap;
     width: 280px;
-    height: 175px;
     background-color: #394264;
     background-clip: padding-box;
     border-bottom: 1px solid transparent;
@@ -631,7 +643,7 @@
     line-height: 1.5em;
     letter-spacing: 0.3px;
     margin: 20px 20px 0 20px;
-    border: 1px solid black;
+   
 }
 
 .grey-text {
@@ -653,6 +665,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .color-lblue {
@@ -699,6 +712,7 @@
     width: 20px;
     height: 20px;
 }
+
 .share {
     height: 100%;
     padding-left: 15px;
@@ -724,12 +738,20 @@
 
 .newsletter {
     width: 280px;
-    height: 220px;
-    padding: 10px 0 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.newsletter-bottom {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .email {
@@ -742,7 +764,8 @@
     text-align: center;
     font-size: 15px;
     color: white;
-    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .password {
@@ -755,7 +778,7 @@
     text-align: center;
     font-size: 15px;
     color: #9099b7;
-    margin: auto;
+    margin-bottom: 25px;
 }
 
 .icon {
@@ -776,6 +799,14 @@
     
 }
 
+.button {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .subscribe {
     width: 180px;
     height: 50px;
@@ -786,9 +817,11 @@
     border-style: solid;
     border-color: #979bc6 #6d6e70 #707287;
     border-radius: 6px;
-    margin: auto;
+    margin-top: 5px;
     
 }
+
+
 
 .signin-button {
     width: 180px;
@@ -827,22 +860,31 @@
 
 .sign-in {
     width: 280px;
-    height: 400px;
-    padding: 10px 0 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sign-in-middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .color-grey {
     font-size: 15px;
     color: #9099b7;
     width: 100%;
-    height: 40px; 
+    height: 50px; 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -851,10 +893,11 @@
     color: #fff;
     font-weight: normal;
     margin-top: 3px;
+    display: inline-block;
     
 }
 
-.fb {
+.sign-bottom {
     width: 100%;
     height: 50px;
     background-color: #3468af;
@@ -865,7 +908,7 @@
     font-weight: normal;
 }
 
-.fb img {
+.sign-bottom img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -874,7 +917,6 @@
 
 .progress-bar {
     width: 280px;
-    height: 200px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -882,12 +924,26 @@
     align-items: center;
     font-size: 15px;
     font-weight: normal;
-    
+    margin-bottom: 30px;
+          
+}
+
+.progress-content {
+    width: 120px;
+    height: 140px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 10px;
+    border: 1px solid black;
+       
 }
 
 .progress-1 {
     height: 18px;
     width: 220px;
+    border: 1px solid black;
    
 }
 
@@ -895,6 +951,8 @@
    
     height: 18px;
     width: 220px;
+    margin-top: 1em;
+    border: 1px solid black;
     
 }
 
@@ -904,23 +962,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border: 1px solid black;
+  
 }
 
 
-.wednesday {
+.date-today {
     width: 280px;
-    height: 280px;
     background: #3468af;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 140px;
-    font-weight: normal;
+    border-radius: 4px;    
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    padding: 0 0 10px;
+    margin-bottom: 30px;
+}
+
+.today-bottom {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+
+}
+
+.number {
+    height: 120px;
+    width: 120px;
+    font-size: 120px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
 }
 
 .top {
@@ -949,11 +1026,11 @@
     background: #4fc4f6;
     font-size: 18px;
     color: white;
-    margin: auto;
     border-width: 1.5px 0;
     border-style: solid;
     border-color: #979bc6 #6d6e70 #707287;
     border-radius: 6px;
+
 }
 
 .event:hover {
@@ -969,7 +1046,6 @@
 
 .calendar {
     width: 280px;
-    height: 380px;
     display: flex;
     flex-direction: column;
     background-color: #394264;
@@ -983,7 +1059,6 @@
 }
 
 .month {
-    height: 330px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -993,9 +1068,8 @@
 
 .week {
     width: 100%;
-    height: 14%;
+    height: 40px;
     display: flex;
-    margin: auto;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
