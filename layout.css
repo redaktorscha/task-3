@@ -128,7 +128,7 @@
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid black;
+    
 }
 
 .block-top {
@@ -168,15 +168,17 @@
     border: 0;
 }
 
-.menu-block-img {
+.menu-txt {
     display: flex;
+    margin-left: 15px;
+    
 }
 
-.menu-block-img img {
+.menu-blocks img {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .progress-value {
@@ -919,7 +921,6 @@
     width: 280px;
     border-radius: 4px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 15px;
@@ -929,31 +930,28 @@
 }
 
 .progress-content {
-    width: 120px;
-    height: 140px;
+    width: 240px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
     margin: 30px 10px;
-    border: 1px solid black;
-       
+          
 }
 
 .progress-1 {
-    height: 18px;
-    width: 220px;
-    border: 1px solid black;
-   
+    height: 20px;
+    width: 240px;
+    margin-top: 10px;
+  
 }
 
 .progress-2 {
    
-    height: 18px;
-    width: 220px;
+    height: 20px;
+    width: 240px;
     margin-top: 1em;
-    border: 1px solid black;
-    
+      
 }
 
 .loading {
@@ -962,8 +960,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
-  
+   
 }
 
 
@@ -1158,8 +1155,8 @@
 
 pie {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 1.5px solid #394165;
     background-color: transparent;
