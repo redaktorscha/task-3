@@ -2,12 +2,12 @@
     margin-left: auto;
     margin-right: auto;
     background: #1f253d;
-    width: 1100px;
+    width: 770px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 100px;
+    padding: 40px 70px;
     font-family: Ubuntu;
     color: white;
 }
@@ -17,15 +17,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 900px;
-    height: 80px;
+    width: 630px;
+    height: 50px;
     background: #394165;
     border-radius: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .frame {
-    width: 900px;
+    width: 630px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,20 +42,19 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 150px;
-    font-size: 18px;
-    
+    width: 105px;
+    font-size: 8px;    
 }
 
 .header-block img {
-    width: 25px;
-    height: 25px;
-    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .blockhov:hover {
     background: #50587c;
-    box-shadow: inset 0 -1.5px 1.5px #11a8ab;
+    box-shadow: inset 0 -3px 3px #11a8ab;
     cursor: pointer;
 }
 
@@ -65,8 +64,8 @@
 }
 
 .anne-small img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     box-shadow: 0 0 0 1.4px #9099b7;
 }
@@ -83,8 +82,8 @@
     position: relative;
     top: 10px;
     right: 4px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background: #e64c65;
     display: flex;
@@ -95,23 +94,22 @@
 }
 
 .five {
-    font-size: 15px;
+    font-size: 8px;
 }
 
 .menu-box {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 15px;    
 }
 
 .menu-block {
-    width: 280px;
-    height: 57px;
+    width: 100%;
+    height: 40px;
     background: #394165;
     background-clip: padding-box;
     border-bottom: 1px solid transparent;
@@ -119,35 +117,33 @@
     align-items: center;
     justify-content: space-between;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 6px;
 }
 
 .menu-blocks {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-    
+    margin-left: 15px;
+    margin-right: 15px;    
 }
 
 .block-top {
-    width: 280px;
-    height: 60px;
+    width: 200px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px 4px 0 0;
     font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 1px;
-    
-   }
+    font-size: 10px;
+    letter-spacing: 1px;    
+}
 
 .block-top img {
     width: 20px;
     height: 20px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .color-teal {
@@ -169,16 +165,12 @@
 }
 
 .menu-txt {
-    display: flex;
-    margin-left: 15px;
-    
+    display: flex;    
 }
 
 .menu-blocks img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    margin-left: 5px;
+    width: 20px;
+    height: 20px;    
 }
 
 .progress-value {
@@ -187,8 +179,8 @@
 }
 
 .oval-grey {
-    width: 40px;
-    height: 25px;
+    width: 25px;
+    height: 15px;
     border-radius: 40%;
     background-color: #50597b;
     margin-right: 10px;
@@ -200,18 +192,18 @@
 
 
 .june {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: flex-start;
     border-radius: 4px 4px 0 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .june-middle {
-    width: 280px;
-    height: 250px;
+    width: 100%;
+    height: 200px;
     background-color: #394264;
     display: flex;
     align-items: flex-start;
@@ -287,70 +279,54 @@
     margin-right: 3px;
 }
 
-.diagram {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.diagram img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-}
-
 .june-bottom {
-    width: 280px;
-    height: 75px;
+    width: 200px;
+    height: 50px;
     display: flex;
-    font-size: 15px;
     display: flex;
 }
 
 .graph {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .graph-bottom {
-    width: 280px;
+    width: 200px;
     height: 50%;
     background-color: #394165;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: 0 0 5px 5px;
-   
+    border-radius: 0 0 4px 4px;   
 }
 
 .graph img {
-    width: 280px;
-    border-radius: 4px 4px 0 0;
-    
+    width: 200px;
+    border-radius: 4px 4px 0 0;    
 }
 
 .buttons {
-    width: 220px;
+    width: 154px;
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 30px;      
+    margin-top: 15px;
+    margin-bottom: 20px;      
 }
 
 
 .time-button {
-    width: 70px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     border-radius: 6px;
     background-color: #50597b;
     color: white;
-    font-size: 13px;
+    font-size: 6px;
     letter-spacing: 1px;
     outline: none;
     border: 1px solid #394264;
@@ -364,18 +340,18 @@
 
 .months {
     width: 95%;
-    height: 80px;
+    height: 55px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
         
 }
     
 
 .line {
     width: 100%;
-    height: 20px;
+    height: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -384,26 +360,26 @@
 
 }
 .video {
-    width: 280px;
+    width: 200px;
     display: flex;
     background-image: url(jessie.png);
-    background-size: 280px;
+    background-size: 200px;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: inset 0 0 4px 1px #50587c;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
 
 .stat {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .bigblock {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,8 +391,8 @@
 }
 
 .stat-line {
-    width: 70px;
-    height: 30px;
+    width: 50px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,7 +420,7 @@
 
 .anne {
     position: relative;
-    width: 280px;
+    width: 200px;
     background: #394165;
     border-radius: 4px;
     display: flex;
@@ -452,26 +428,26 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .anne-text {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     letter-spacing: 1.5px;
-    width: 240px;
+    width: 130px;
     line-height: 3em;
 }
 
 .grey-circle {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 20px;
-    height: 20px;
+    top: 8px;
+    right: 8px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background: #394165;
     box-shadow: 0 0 0 2px #9099b7;
@@ -484,24 +460,23 @@
     position: relative;
     top: -1px;
     left: 1px;
-    font-size: 20px;
+    font-size: 8px;
     color: #9099b7;
     font-weight: bold;
 }
 
 .anne-bottom {
-    width: 280px;
-    height: 55px;
+    width: 200px;
+    height: 40px;
     display: flex;
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 10px;
 }
 
 .bottom1 {
     width: 33%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #e64c65;
+    border-top: 3px solid #e64c65;
     background-clip: padding-box;
     border-right: 1px solid transparent;
     border-radius: 0 0 0 4px;
@@ -514,7 +489,7 @@
     width: 33%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #11a8ab;
+    border-top: 3px solid #11a8ab;
     background-clip: padding-box;
     border-right: 1px solid transparent;
     display: flex;
@@ -526,7 +501,7 @@
     width: 33%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #fcb150;
+    border-top: 3px solid #fcb150;
     border-radius: 0 0 4px 0;
     display: flex;
     justify-content: center;
@@ -534,30 +509,30 @@
 }
 
 .anne-bottom img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
 }
 
 
 .weather {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .font-normal {
     font-weight: normal;
-    font-size: 17px;
+    font-size: 10px;
 }
 
 .weather-block {
-    width: 280px;
-    height: 57px;
+    width: 200px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -567,7 +542,7 @@
     color: #fff;
     font-weight: normal;
     letter-spacing: 0.5px;
-    font-size: 15px;
+    font-size: 8px;
 }
 
 .weather-block:hover{
@@ -577,7 +552,7 @@
 
 .weather-day {
     color: #fff;
-    margin-right: 5px;
+    margin-right: 4px;
 }
 
 .weather-block:hover .weather-day {
@@ -586,7 +561,7 @@
 
 .block-day {
     width: 100%;
-    height: 180px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -601,20 +576,20 @@
 }
 
 .temp {
-    font-size: 80px;
+    font-size: 34px;
 }
 
 .date {
-    font-size: 15px;
+    font-size: 8px;
 }
 
 .twitter {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .block-name {
@@ -626,11 +601,11 @@
 .grey-block {
     display: flex;
     flex-flow: row wrap;
-    width: 280px;
+    width: 100%;
     background-color: #394264;
     background-clip: padding-box;
     border-bottom: 1px solid transparent;
-    font-size: 15px;
+    font-size: 6px;
     font-weight: normal;
 }
 
@@ -650,7 +625,7 @@
 
 .grey-text {
     color: #9099b7;
-    font-size: 15px;
+    font-size: 6px;
     font-weight: 600;
     line-height: 1.3em;
     letter-spacing: 0.5px;
@@ -661,13 +636,13 @@
   }
 
 .smallblock {
-    width: 280px;
-    height: 60px;
+    width: 200px;
+    height: 40px;
     border-radius: 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .color-lblue {
@@ -703,16 +678,16 @@
 }
 
 .square-block {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .square-block img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .share {
@@ -722,13 +697,13 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 10px;
     letter-spacing: 1.2px;
 }
 
 .sharing {
     display: flex;
-    width: 280px;
+    width: 200px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -739,12 +714,12 @@
 }
 
 .newsletter {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .newsletter-bottom {
@@ -753,83 +728,82 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .email {
-    width: 240px;
-    height: 50px;
+    width: 170px;
+    height: 30px;
     border-radius: 4px;
     border: 1px solid #11a8ab;
     display: flex;
     font-weight: normal;
     text-align: center;
-    font-size: 15px;
+    font-size: 6px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 5px;
 }
 
 .password {
-    width: 240px;
-    height: 50px;
+    width: 170px;
+    height: 30px;
     border-radius: 4px;
     border: 1px solid #1f253d;
     display: flex;
     font-weight: normal;
     text-align: center;
-    font-size: 15px;
+    font-size: 6px;
     color: #9099b7;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
 }
 
 .icon {
     background-image: url(messages.png);
-    background-size: 20px;
+    background-size: 18px;
     background-color: #50587c;
     background-repeat: no-repeat;
-    background-position: 15px;
+    background-position: 10px;
     
 }
 
 .icon2 {
     background-image: url(lock.png);
     background-color: #50587c;
-    background-size: 20px;
+    background-size: 18px;
     background-repeat: no-repeat;
-    background-position: 20px;
+    background-position: 10px;
     
 }
 
 .button {
-    width: 180px;
-    height: 50px;
+    width: 115px;
+    height: 30px;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
 .subscribe {
-    width: 180px;
-    height: 50px;
+    width: 115px;
+    height: 30px;
     background: #11a8ab;
-    font-size: 18px;
+    font-size: 10px;
     color: white;
     border-width: 1.5px 0;
     border-style: solid;
     border-color: #979bc6 #6d6e70 #707287;
     border-radius: 6px;
-    margin-top: 5px;
-    
+    margin-top: 5px;    
 }
 
 
 
 .signin-button {
-    width: 180px;
-    height: 50px;
+    width: 115px;
+    height: 30px;
     background: #e64c65;
-    font-size: 18px;
+    font-size: 10px;
     color: white;
     margin: auto;
     border-width: 1.5px 0;
@@ -861,13 +835,13 @@
 }
 
 .sign-in {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sign-in-middle {
@@ -876,34 +850,33 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .color-grey {
-    font-size: 15px;
+    font-size: 6px;
     color: #9099b7;
     width: 100%;
-    height: 50px; 
+    height: 20px; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .white-text {
-    font-size: 20px;
+    font-size: 13px;
     color: #fff;
     font-weight: normal;
-    margin-top: 3px;
-    display: inline-block;
-    
+    margin-top: 8px;
+    display: inline-block;    
 }
 
 .sign-bottom {
     width: 100%;
-    height: 50px;
+    height: 33px;
     background-color: #3468af;
-    font-size: 16px;
+    font-size: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -911,68 +884,55 @@
 }
 
 .sign-bottom img {
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .progress-bar {
-    width: 280px;
+    width: 200px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 6px;
     font-weight: normal;
-    margin-bottom: 30px;
-          
+    margin-bottom: 15px;          
 }
 
 .progress-content {
-    width: 240px;
+    width: 166px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 30px 10px;
-          
+    margin: 28px 15px 20px 15px;          
 }
 
-.progress-1 {
-    height: 20px;
-    width: 240px;
-    margin-top: 10px;
-  
-}
-
-.progress-2 {
-   
-    height: 20px;
-    width: 240px;
-    margin-top: 1em;
-      
+.progress {
+    height: 15px;
+    width: 166px;     
 }
 
 .loading {
-    width: 240px;
-    height: 40px;
+    width: 166px;
+    height: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 
 .date-today {
-    width: 280px;
+    width: 200px;
     background: #3468af;
     border-radius: 4px;    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .today-bottom {
@@ -986,40 +946,39 @@
 }
 
 .number {
-    height: 120px;
-    width: 120px;
-    font-size: 120px;
+    height: 70px;
+    width: 96px;
+    font-size: 70px;
     font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 18px;    
 }
 
 .top {
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #1a4e95;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 10px;
     border-radius: 4px 4px 0 0;
 }
 
 .top img {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 .event {
-    width: 180px;
-    height: 50px;
+    width: 115px;
+    height: 30px;
     background: #4fc4f6;
     font-size: 18px;
     color: white;
@@ -1042,7 +1001,7 @@
 }
 
 .calendar {
-    width: 280px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     background-color: #394264;
@@ -1056,7 +1015,7 @@
 }
 
 .month {
-    margin: 20px;
+    margin: 20px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1065,7 +1024,7 @@
 
 .week {
     width: 100%;
-    height: 40px;
+    height: 25px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -1073,9 +1032,9 @@
 }
 
 .day {
-    width: 40px;
-    height: 20px;
-    font-size: 15px;
+    width: 20px;
+    height: 25px;
+    font-size: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1083,7 +1042,7 @@
 
 .today {
     position: relative;
-    width: 30px;
+    width: 20px;
     height: 25px;
     background-color: #e64c65;
     border-radius: 50%;
@@ -1092,7 +1051,7 @@
 }
 
 .future {
-    font-size: 15px;
+    font-size: 8px;
     font-weight: bold;
     color: white;
 }
@@ -1105,8 +1064,8 @@
 
 .anne-photo {
     background-image: url(anne_big.jpg);
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 0 0 0 6px #50597b;
     margin-top: 40px;
@@ -1115,16 +1074,16 @@
 
 .diagram {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .inner-hole {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1137,46 +1096,34 @@
 .grey-2013 {
     color: #9099b7;
    font-weight: bold;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .content {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 45px;
+    height: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
     color: white;
 }
 
 pie {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 1.5px solid #394165;
-    background-color: transparent;
-}
-
-.red-slice {
-    background-image: linear-gradient(260deg, #e64c65 50%, transparent 50%), linear-gradient(315deg, white 50%, transparent 50%);
-}
-
-.teal-slice {
-    background-image: linear-gradient(320deg, #11a8ab 50%, transparent 50%), linear-gradient(130deg, transparent 50%, transparent 50%);
-}
-
-.blue-slice {
-    background-image: linear-gradient(55deg, #4fc4f6 50%, transparent 50%), linear-gradient(150deg, transparent 50%, transparent 50%);
-}
-
-.yellow-slice {
     background-color: #fcb150;
+    background-image: linear-gradient(260deg, #e64c65 50%, transparent 50%), linear-gradient(315deg, white 50%, transparent 50%),
+                    linear-gradient(320deg, #11a8ab 50%, transparent 50%), linear-gradient(130deg, transparent 50%, transparent 50%),
+                    linear-gradient(55deg, #4fc4f6 50%, transparent 50%), linear-gradient(150deg, transparent 50%, transparent 50%),
 }
+
 
 @font-face {
     font-family: "Ubuntu";
