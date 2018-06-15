@@ -77,7 +77,8 @@
                     <div class="block-top color-teal">MENU BOX</div>
                     <div class="menu-block">
                         <div class="menu-blocks">                           
-                            <img src="messages-g.png">
+                            <img src="messages-g.png" onmouseover="src='messages-w.png'"
+                            onmouseout="src='messages-g.png'">
                             <div class="menu-txt">Messages</div>
                         </div>
                         <div class="oval-grey">24</div>
@@ -161,35 +162,47 @@
                 <div class="graph">
                     <img src="graph.png">
                     <div class="graph-bottom">
+
                         <div class="buttons">
-                            <button class="time-button" type="submit">Week</button>
-                            <button class="time-button" type="submit">Month</button>
-                            <button class="time-button" type="submit">Year</button>
+                                <div class="radio-button">
+                                    <input type="radio" name="rbtn" id="week" value="Week">
+                                    <label for="week">Week</label>
+                                </div>
+                                                           
+                                <div class="radio-button"><input type="radio" name="rbtn" id="month" value="Month">
+                                    <label for="month">Month</label>
+                                </div>
+                                                           
+                                <div class="radio-button"><input type="radio" name="rbtn" id="year" value="Year">
+                                    <label for="year">Year</label>
+                                </div>
                         </div>
+
                         <div class="months">
                             <div class="line">
-                                <div class="menu-blocks">APR
+                                <div class="text-blocks">APR
                                     <span class="grey">2013</span>
                                 </div>
-                                <div class="menu-blocks">
+                                <div class="text-blocks">
                                     <span class="red-text">+</span>21
                                     <sup>%</sup>
                                 </div>
                             </div>
+
                             <div class="line">
-                                <div class="menu-blocks">MAY
+                                <div class="text-blocks">MAY
                                     <span class="grey">2013</span>
                                 </div>
-                                <div class="menu-blocks">
+                                <div class="text-blocks">
                                     <span class="red-text">+</span>48
                                     <sup>%</sup>
                                 </div>
                             </div>
                             <div class="line">
-                                <div class="menu-blocks">JUN
+                                <div class="text-blocks">JUN
                                     <span class="grey">2013</span>
                                 </div>
-                                <div class="menu-blocks">
+                                <div class="text-blocks">
                                     <span class="red-text">+</span>35
                                     <sup>%</sup>
                                 </div>
@@ -279,7 +292,7 @@
                         <img src="cloud-sun-w.png">
                     </div>
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">SAT</span>
                             <span class="grey-text">29/06</span>
                         </div>
@@ -290,7 +303,7 @@
                         </div>
                     </div>
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">SUN</span>
                             <span class="grey-text">30/06</span>
                         </div>
@@ -303,7 +316,7 @@
 
 
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">MON</span>
                             <span class="grey-text">01/07</span>
                         </div>
@@ -316,7 +329,7 @@
                     </div>
 
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">TUE</span>
                             <span class="grey-text">02/07</span>
                         </div>
@@ -329,7 +342,7 @@
                     </div>
 
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">WED</span>
                             <span class="grey-text">03/07</span>
                         </div>
@@ -342,7 +355,7 @@
                     </div>
 
                     <div class="weather-block">
-                        <div class="menu-blocks">
+                        <div class="text-blocks">
                             <span class="weather-day">THU</span>
                             <span class="grey-text">04/07</span>
                         </div>
