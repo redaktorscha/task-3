@@ -19,7 +19,7 @@
     align-items: center;
     width: 630px;
     height: 50px;
-    background: #394165;
+    background-color: #394264;
     border-radius: 4px;
     margin-bottom: 15px;
 }
@@ -110,7 +110,7 @@
 .menu-block {
     width: 100%;
     height: 40px;
-    background: #394165;
+    background-color: #394264;
     background-clip: padding-box;
     border-bottom: 1px solid transparent;
     display: flex;
@@ -125,7 +125,8 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 15px;
-    margin-right: 15px;    
+    margin-right: 15px;
+    border: 1px solid black;    
 }
 
 .block-top {
@@ -170,7 +171,8 @@
 
 .menu-blocks img {
     width: 20px;
-    height: 20px;    
+    height: 20px;
+    margin-right: 10px;    
 }
 
 .progress-value {
@@ -297,7 +299,7 @@
 .graph-bottom {
     width: 200px;
     height: 50%;
-    background-color: #394165;
+    background-color: #394264;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -421,7 +423,7 @@
 .anne {
     position: relative;
     width: 200px;
-    background: #394165;
+    background-color: #394264;
     border-radius: 4px;
     display: flex;
     flex-flow: column wrap;
@@ -449,7 +451,7 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background: #394165;
+    background-color: #394264;
     box-shadow: 0 0 0 2px #9099b7;
     display: flex;
     align-items: center;
@@ -536,7 +538,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #394165;
+    background-color: #394264;
     background-clip: padding-box;
     border-bottom: 1px solid transparent;
     color: #fff;
@@ -674,7 +676,7 @@
 }
 
 .color-dgrey {
-    background-color: #394165;
+    background-color: #394264;
 }
 
 .square-block {
@@ -759,7 +761,7 @@
 }
 
 .icon {
-    background-image: url(messages.png);
+    background-image: url(messages-g.png);
     background-size: 18px;
     background-color: #50587c;
     background-repeat: no-repeat;
@@ -896,7 +898,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6px;
+    font-size: 10px;
     font-weight: normal;
     margin-bottom: 15px;          
 }
@@ -920,9 +922,22 @@
     height: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;   
 }
 
+.progress-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;      
+}
+
+.progress-block img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 
 .date-today {
     width: 200px;
@@ -1058,16 +1073,18 @@
 
 .column {
     border-radius: 4px;
-    background: #394165;
+    background-color: #394264;
     text-align: center;
 }
 
 .anne-photo {
-    background-image: url(anne_big.jpg);
+    background-image: url(anne_big.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    box-shadow: 0 0 0 6px #50597b;
+    box-shadow: 0 0 0 3px #50597b;
     margin-top: 40px;
     margin-bottom: 10px;
 }
@@ -1088,7 +1105,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: #394264;
+    background-color: #394264;
     box-shadow: inset 0 0 0 1.4px grey;
     z-index: 1;
 }
@@ -1117,7 +1134,7 @@ pie {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 1.5px solid #394165;
+    border: 1.5px solid #394264;
     background-color: #fcb150;
     background-image: linear-gradient(260deg, #e64c65 50%, transparent 50%), linear-gradient(315deg, white 50%, transparent 50%),
                     linear-gradient(320deg, #11a8ab 50%, transparent 50%), linear-gradient(130deg, transparent 50%, transparent 50%),
