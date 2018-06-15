@@ -646,6 +646,19 @@
     cursor: pointer;
 }
 
+.weather-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    border: 1px solid orange;    
+}
+
+.weather-blocks img {
+    width: 18px;
+    margin-left: 10px;  
+}
+
 .weather-day {
     color: #fff;
     margin-right: 4px;
@@ -664,6 +677,10 @@
           
 }
 
+.block-day img {
+    width: 70px;
+   }
+
 .day-temp {
     display: flex;
     flex-direction: column;
@@ -672,11 +689,12 @@
 }
 
 .temp {
-    font-size: 34px;
+    font-size: 50px;
 }
 
 .date {
-    font-size: 8px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
 }
 
 .twitter {
