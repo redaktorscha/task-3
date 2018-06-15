@@ -251,7 +251,7 @@
     width: 25%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #e64c65;
+    border-top: 2px solid #e64c65;
     background-clip: padding-box;
     border-right: 1px solid transparent;
     border-radius: 0 0 0 4px;
@@ -266,7 +266,7 @@
     width: 25%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #11a8ab;
+    border-top: 2px solid #11a8ab;
     background-clip: padding-box;
     border-right: 1px solid transparent;
     display: flex;
@@ -280,7 +280,7 @@
     width: 25%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #fcb150;
+    border-top: 2px solid #fcb150;
     background-clip: padding-box;
     border-right: 1px solid transparent;
     display: flex;
@@ -294,7 +294,7 @@
     width: 25%;
     height: 100%;
     background: #50587c;
-    border-top: 4px solid #4fc4f6;
+    border-top: 2px solid #4fc4f6;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -890,10 +890,11 @@
 }
 
 .color-grey {
-    font-size: 6px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
     color: #9099b7;
     width: 100%;
-    height: 20px; 
+    height: 15px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -911,11 +912,12 @@
     width: 100%;
     height: 33px;
     background-color: #3468af;
-    font-size: 6px;
+    font-size: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: normal;
+    margin-top: 10px;
 }
 
 .sign-bottom img {
@@ -989,19 +991,19 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 10px 0;
+    padding: 0 0 20px 0;
 
 }
 
 .number {
-    height: 70px;
-    width: 96px;
-    font-size: 70px;
+    height: 95px;
+    font-size: 95px;
     font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px;    
+    margin-bottom: 8px;    
 }
 
 .top {
@@ -1012,7 +1014,8 @@
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
     border-radius: 4px 4px 0 0;
 }
 
