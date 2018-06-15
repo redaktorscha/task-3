@@ -15,7 +15,7 @@
 .header {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 635px;
     height: 55px;
@@ -24,7 +24,18 @@
     margin-bottom: 15px;
 }
 
+.header-begin {
+    display: flex;
+    height: 100%;
+    width: 332px;
+}
 
+.header-end {
+    display: flex;
+    height: 100%;
+    width: 303px;
+    justify-content: space-between;
+}
 
 .frame {
     width: 635px;
@@ -44,7 +55,6 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 105px; 
 }
 
 .headersblock {
@@ -52,20 +62,27 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
 }
 
-.messagesblock {
-    height: 100%;
-    width: 115px;
+.userblock {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
     border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    
 }
 
-.nullblock {
-    height: 100%;
-    width: 90px; 
+.userblock img {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .headertext {
@@ -73,15 +90,9 @@
     text-align: center;  
 }
 
-.headersblock img {
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
-}
-
-.messagesblock img {
-    width: 15px;
-    height: 15px;
+.header-block img {
+    width: 18px;
+    height: 18px;
     margin-right: 10px;
 }
 
@@ -96,7 +107,7 @@
     height: 25px;
     border-radius: 50%;
     box-shadow: 0 0 0 1.4px #9099b7;
-    margin-left: 10px;
+    
 }
 
 .red {
@@ -138,15 +149,15 @@
     align-items: center;
     justify-content: space-between;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 11px;
 }
 
 .menu-blocks {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: 1px solid black;    
 }
 
@@ -158,8 +169,12 @@
     justify-content: center;
     border-radius: 4px 4px 0 0;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 1px;    
+}
+
+.margin-top {
+    margin-top: 5px;
 }
 
 .block-top img {
@@ -191,8 +206,8 @@
 }
 
 .menu-blocks img {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 10px;    
 }
 
