@@ -184,8 +184,7 @@
 
 .block-top2 {
     width: 200px;
-    height: 45px;
-    padding: 10px 0 0 0;
+    height: 45px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -460,10 +459,10 @@
     margin-bottom: 15px;
 }
 
-  .video-content {
+.video-content {
     display: block;
     width: 192px;
-    height: 144px;
+    height: 145px;
     margin-top: 4px;
 }
 
@@ -843,7 +842,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .email {
@@ -857,7 +856,7 @@
     font-size: 10.5px;
     color: white;
     margin-bottom: 10px;
-    margin-top: 5px;
+   
 }
 
 .password {
@@ -870,7 +869,7 @@
     text-align: center;
     font-size: 10.5px;
     color: #9099b7;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .icon {
@@ -965,7 +964,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -1208,58 +1207,91 @@
     margin-top: 30px;
 }
 
-.diagram {
-    position: relative;
-    top: 30px;
-    width: 140px;
+
+
+.pieContainer {
     height: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.inner-hole {
-    width: 90px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 140px;
     border-radius: 50%;
-    background-color: #394264;
-    box-shadow: inset 0 0 0 1.4px grey;
-    z-index: 1;
-}
-
-.grey-2013 {
-    color: #9099b7;
-   font-weight: bold;
-    font-size: 13px;
-}
-
-.content {
     position: relative;
-    width: 45px;
-    height: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-}
-
-pie {
+    background-color: #fcb150;
+    transform:rotate(-10deg);
+  }
+  
+  .pie {
+    
     position: absolute;
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 1.5px solid #394264;
-    background-color: #fcb150;
-    background-image: linear-gradient(260deg, #e64c65 50%, transparent 50%), linear-gradient(315deg, white 50%, transparent 50%),
-                    linear-gradient(320deg, #11a8ab 50%, transparent 50%), linear-gradient(130deg, transparent 50%, transparent 50%),
-                    linear-gradient(55deg, #4fc4f6 50%, transparent 50%), linear-gradient(150deg, transparent 50%, transparent 50%),
-}
+    clip: rect(0px, 70px, 140px, 0px);
+  }
+  
+  .hold {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    clip: rect(0px, 140px, 140px, 70px);
+  }
+  
+  #pieSliceRed .pie {
+    background-color: #e64c65;
+    transform:rotate(75.6deg);
+  }
+  
+  #pieSliceTeal {
+    transform:rotate(75.6deg);
+  }
+  
+  #pieSliceTeal .pie {
+    background-color: #11a8ab;
+    transform: rotate(172.8deg);
+  }
+  
+  
+  #pieSliceBlue {
+   background-color: #4fc4f6;
+    transform: rotate(172.8deg);
+  }
+  
+  #pieSliceBlue .pie {
+    transform: rotate(115.2deg);
+  }
+  
+  
+  
+  .innerCircle {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #384265;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px; 
+    box-shadow: 0px 0px 8px #1f253d inset;
+    
+  }
+   .content {
+    position: absolute;
+    display: block;
+    width: 90px;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    transform: rotate(10deg);
+
+  }
+  
+  .grey-2013 {
+    color: #9099b7;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+  }
 
 
 @font-face {
