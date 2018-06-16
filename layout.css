@@ -1024,13 +1024,32 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 28px 15px 20px 15px;          
+    margin: 28px 15px 20px 15px;
+              
 }
 
-.progress {
+
+.progress[value] {
     height: 15px;
-    width: 166px;     
+    width: 166px;
+    appearance: none;
+    border-radius: 4px;
+    background-color: #50597b;
+    
 }
+
+#progress-upper[value]::-webkit-progress-value {
+    background-color: #11a8ab;
+    border-radius: 4px 0 0 4px;
+    
+}
+
+#progress-down[value]::-webkit-progress-value {
+    background-color: #4fc4f6;
+    border-radius: 4px 0 0 4px;
+   
+}
+
 
 .loading {
     width: 166px;

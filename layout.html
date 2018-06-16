@@ -214,6 +214,10 @@
                     <div class="video-content">
                         <video src="https://youtu.be/GReIQJc_1xw" poster="jessie.png" width="192px" controls>
                         </video>
+                        <script>
+                                var video = document.getElementsByTagName('video')[0];
+                                video.removeAttribute('controls');
+                                </script>
                        
                     </div>
                    
@@ -440,7 +444,7 @@
 
                 <div class="progress-bar column">
                     <div class="progress-content">
-                        <progress class="progress" value="81" max="100"></progress>
+                        <progress id="progress-upper" class="progress" value="81" max="100"></progress>
                         <div class="loading">
                             <div class="progress-block">
                                 <img src="download.png">
@@ -451,7 +455,7 @@
                             </div>
                         </div>
 
-                        <progress class="progress" value="43" max="100"></progress>
+                        <progress id="progress-down" class="progress" value="43" max="100"></progress>
                         <div class="loading">
                             <div class="progress-block">
                                 <img src="upload.png">
