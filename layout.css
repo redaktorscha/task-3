@@ -456,14 +456,26 @@
     justify-content: center;
     border-radius: 4px;
     box-shadow: inset 0 0 4px 1px #50587c;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    
 }
 
 .video-content {
     display: block;
     width: 192px;
-    height: 145px;
+    height: 100px;
     margin-top: 4px;
+}
+
+.fake-controls {
+    display: flex;    
+    width: 200px;
+    margin-bottom: 15px;    
+}
+
+.fake-controls img {
+    border-radius: 0 0 4px 4px;
+    width: 200px;
 }
 
 .stat {
@@ -1235,6 +1247,7 @@
     position: relative;
     background-color: #fcb150;
     transform:rotate(-10deg);
+    border: 1px solid #1f253d;
   }
   
   .pie {
