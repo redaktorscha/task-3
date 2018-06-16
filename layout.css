@@ -152,6 +152,35 @@
     font-size: 11px;
 }
 
+.menu-pictures {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+
+#messages {    
+    background-image: url(messages-g.png);
+}
+
+#invites {
+    background-image: url(invites-g.png);
+}
+
+#events {
+    background-image: url(events-g.png);
+}
+
+#settings {
+    background-image: url(settings-g.png);
+}
+
+#statistics {
+    background-image: url(statistics-g.png);
+}
+
+
 .menu-blocks {
     display: flex;
     align-items: center;
@@ -213,6 +242,26 @@
     background-color: #e64c65;
 }
 
+.menu-block:hover #messages {
+    background-image: url(messages-w.png);
+}
+
+.menu-block:hover #invites {
+    background-image: url(invites-w.png);
+}
+
+.menu-block:hover #events {
+    background-image: url(events-w.png);
+}
+
+.menu-block:hover #settings {
+    background-image: url(settings-w.png);
+}
+
+.menu-block:hover #statistics {
+    background-image: url(statistics-w.png);
+}
+
 .border {
     border-radius: 0 0 4px 4px;
     border: 0;
@@ -222,11 +271,6 @@
     display: flex;    
 }
 
-.menu-blocks img {
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;    
-}
 
 .progress-value {
     display: inline-block;
