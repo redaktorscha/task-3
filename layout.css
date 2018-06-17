@@ -136,7 +136,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin-bottom: 15px;    
+    margin-bottom: 16px;    
 }
 
 .menu-block {
@@ -192,7 +192,7 @@
 .text-blocks {
     display: inline-block;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 10px;
     font-size: 11px;
      
@@ -212,7 +212,7 @@
 
 .block-top2 {
     width: 200px;
-    height: 45px;  
+    height: 50px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,7 +279,7 @@
 
 .oval-grey {
     width: 25px;
-    height: 15px;
+    height: 18px;
     border-radius: 40%;
     background-color: #50597b;
     margin-right: 10px;
@@ -296,12 +296,12 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .june-middle {
     width: 100%;
-    height: 250px;
+    height: 235px;
     background-color: #394264;
     display: flex;    
     flex-flow: column wrap;
@@ -322,8 +322,8 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+       
 }
 
 .june-bottom2 {
@@ -337,7 +337,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    
+        
 }
 
 .june-bottom3 {
@@ -411,11 +411,12 @@
 }
 
 .buttons {
-    width: 170px;
+    width: 168px;
     height: 20px;
     margin-top: 15px;
-    margin-bottom: 20px;
-    display: inline-block;   
+    margin-bottom: 22px;
+    display: flex;   
+    justify-content: center;
 }
 
 /*
@@ -519,6 +520,7 @@
 .fake-controls img {
     border-radius: 0 0 4px 4px;
     width: 200px;
+    height: 35px;
 }
 
 .stat {
@@ -579,7 +581,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .anne-text {
@@ -591,6 +593,14 @@
     letter-spacing: 1.5px;
     width: 130px;
     line-height: 3em;
+}
+
+.anne-grey {
+    line-height: 1.3em;
+    color: #9099b7;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 10px;
 }
 
 .grey-circle {
@@ -775,7 +785,6 @@
     border-bottom: 1px solid transparent;
     font-size: 10px;
     font-weight: normal;
-    padding: 0 0 5px 0;
 }
 
 .blue-text {
@@ -792,12 +801,12 @@
    
 }
 
+
 .grey-text {
     color: #9099b7;
     font-weight: 600;
-    line-height: 1.3em;
     letter-spacing: 0.3px;
-    font-size: 11px;
+    font-size: 10px;
     border: 1px solid green;
   }
 
@@ -889,7 +898,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .newsletter-bottom {
@@ -898,7 +907,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: -3px;
 }
 
 .email {
@@ -911,7 +921,7 @@
     text-align: center;
     font-size: 10.5px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
    
 }
 
@@ -926,7 +936,7 @@
     text-align: center;
     font-size: 10.5px;
     color: #9099b7;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .icon {
@@ -965,7 +975,7 @@
     border-style: solid;
     border-color: #979bc6 #6d6e70 #707287;
     border-radius: 4px;
-    margin-top: 10px;    
+    margin-top: 7px;    
 }
 
 
@@ -1012,7 +1022,7 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .sign-in-middle {
@@ -1037,12 +1047,16 @@
 }
 
 .white-text {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     font-weight: normal;
     margin-top: 8px;
     margin-bottom: 5px;
     display: inline-block;    
+}
+
+.small {
+    font-size: 12px;
 }
 
 .sign-bottom {
@@ -1081,7 +1095,7 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 28px 15px 20px 15px;
+    margin: 28px 15px 10px 15px;
               
 }
 
@@ -1114,8 +1128,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;   
+    margin-top: 9px;
+    margin-bottom: 9px;   
 }
 
 .progress-block {
@@ -1138,7 +1152,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .today-bottom {
@@ -1213,6 +1227,7 @@
     flex-direction: column;
     background-color: #394264;
     border-radius: 4px;
+   
 }
 
 .weekdays {
@@ -1227,6 +1242,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px 0;
 }
 
 .week {
@@ -1290,6 +1306,7 @@
     width: 140px;
     border-radius: 50%;
     position: relative;
+    top: 10px;
     background-color: #fcb150;
     transform:rotate(-10deg);
     box-shadow: 0 0 0 1.5px #50597b;
@@ -1353,10 +1370,10 @@
     position: absolute;
     display: block;
     width: 90px;
-    top: 30px;
+    top: 25px;
     left: 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-weight: bold;
     transform: rotate(10deg);
@@ -1367,7 +1384,7 @@
     color: #9099b7;
     font-weight: normal;
     letter-spacing: 0.8px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
 
