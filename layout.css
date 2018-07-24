@@ -1,7 +1,10 @@
+body {
+    background-color: #1f253d;
+}
 .wrapper {
     margin-left: auto;
     margin-right: auto;
-    background: #1f253d;
+    background-color: #1f253d;
     width: 630px;
     display: flex;
     flex-direction: column;
@@ -110,7 +113,7 @@
 
 .red {
     position: relative;
-    top: 10px;
+    top: -10px;
     right: 4px;
     width: 15px;
     height: 15px;
@@ -119,12 +122,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-start;
     margin-left: 4px;
 }
 
 .five {
     font-size: 10px;
+    font-weight: bold;
 }
 
 .menu-box {
@@ -183,8 +186,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
-       
+    margin-left: 10px;       
 }
 
 .text-blocks {
@@ -192,8 +194,7 @@
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 11px;
-     
+    font-size: 11px;        
 }
 
 .block-top {
@@ -277,13 +278,14 @@
 
 .oval-grey {
     width: 25px;
-    height: 18px;
-    border-radius: 40%;
+    height: 16px;
+    border-radius: 8px;
     background-color: #50597b;
     margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 10.5px;
 }
 
 
@@ -314,13 +316,12 @@
     height: 100%;
     background: #50587c;
     border-top: 2px solid #e64c65;
-    background-clip: padding-box;
-    border-right: 1px solid transparent;
     border-radius: 0 0 0 4px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+       
        
 }
 
@@ -329,8 +330,6 @@
     height: 100%;
     background: #50587c;
     border-top: 2px solid #11a8ab;
-    background-clip: padding-box;
-    border-right: 1px solid transparent;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -344,11 +343,11 @@
     background: #50587c;
     border-top: 2px solid #fcb150;
     background-clip: padding-box;
-    border-right: 1px solid transparent;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    box-shadow: inset -1px, -1px, 0, 1px, rgba(31, 37, 61, 0.5);
    
 }
 
@@ -381,7 +380,7 @@
     width: 200px;
     height: 50px;
     display: flex;
-    display: flex;
+    
 }
 
 .graph {
@@ -417,35 +416,23 @@
     justify-content: center;
 }
 
-/*
-.time-button {
-    width: 50px;
-    height: 20px;
-    border-radius: 6px;
-    background-color: #50597b;
-    color: white;
-    font-size: 6px;
-    letter-spacing: 1px;
-    outline: none;
-    border: 1px solid #394264;
-}
-
-.time-button:hover {
-    background-color: #e64c65;
-    cursor: pointer;
-}
-*/
 
 .radio-button {
     display: inline-block;
     position: relative;
+    outline: none;
    }
-  
-  .radio-button input[type='radio'] {
+
+.radio-button label:hover {
+    background-color: #e64c65;
+    cursor: pointer;
+}
+
+.radio-button input[type='radio'] {
     display: none;
   }
   
-  .radio-button label {
+.radio-button label {
     position: relative;
     color: white;
     background-color: #50597b;
@@ -700,7 +687,7 @@
     color: #fff;
     font-weight: normal;
     letter-spacing: 0.5px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .weather-block:hover{
@@ -710,20 +697,23 @@
 
 .weather-blocks {
     display: flex;
+    width: 45px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: 10px;
       
 }
 
 .weather-blocks img {
     width: 18px;
-    margin-left: 10px;  
+    margin-left: 5px;  
 }
 
 .weather-day {
     color: #fff;
-    margin-right: 4px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .weather-block:hover .weather-day {
@@ -793,29 +783,22 @@
 .tweet-text {
     text-align: left;
     color: #fff;
-    line-height: 1.5em;
-    letter-spacing: 0.3px;
-    margin: 20px 20px 0 20px;
-   
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    margin: 18px 20px 0 20px;   
 }
 
-
-.grey-text {
-    color: #9099b7;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-    font-size: 10px;
-    
-  }
-
-  .margin-left {
+.margin-left {
     margin-left: 20px;
-  }
+}
+
+.margin-bottom {
+    margin-bottom: 18px;
+}
 
 .smallblock {
     width: 200px;
     height: 40px;
-    border-radius: 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -880,6 +863,11 @@
     color: #fff;
     letter-spacing: 1.2px;
     outline: none;
+    border-radius: 0 4px 4px 0;
+}
+.smallblock:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1.5px #50587c;
 }
 
 .sharing {
@@ -961,60 +949,31 @@
 
 .button {
     width: 115px;
-    height: 30px;
+    height: 32px;
+    font-size: 11px;
+    color: white;
+    border-radius: 3px;
     display: flex;
     align-content: center;
     justify-content: center;
+    cursor: pointer;
+    border: none;
 }
 
 .subscribe {
-    width: 115px;
-    height: 30px;
-    background: #11a8ab;
-    font-size: 11px;
-    color: white;
-    border-width: 1.5px 0;
-    border-style: solid;
-    border-color: #979bc6 #6d6e70 #707287;
-    border-radius: 4px;
-    margin-top: 7px;    
+    margin-top: 7px;  
 }
 
-
-
-.signin-button {
-    width: 115px;
-    height: 30px;
-    background: #e64c65;
-    font-size: 11px;
-    color: white;
-    margin: auto;
-    border-width: 1.5px 0;
-    border-style: solid;
-    border-color: #979bc6 #6d6e70 #707287;
-    border-radius: 4px;
+.signin-button {    
+    margin: auto;    
 }
 
 .signin-button:hover {
-    background: linear-gradient(#e64c65, #752633);
-    cursor: pointer;
-    animation: pulsate 1.5s linear infinite;
+    background: linear-gradient(#e64c65, #752633);   
 }
 
 .subscribe:hover {
-    background: linear-gradient(#11a8ab, #1b475a);
-    cursor: pointer;
-    animation: pulsate 1.5s linear infinite;
-}
-
-.subscribe:active {
-    background: linear-gradient(#1b475a, #11a8ab);
-    animation-play-state: paused;
-}
-
-.signin-button:active {
-    background: linear-gradient(#752633, #e64c65);
-    animation-play-state: paused;
+    background: linear-gradient(#11a8ab, #1b475a);    
 }
 
 .sign-in {
@@ -1039,22 +998,21 @@
 
 .color-grey {
     font-size: 10px;
+    font-weight: bold;
     letter-spacing: 0.5px;
     color: #9099b7;
     width: 100%;
-    height: 15px; 
+    line-height: 15px; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .white-text {
     font-size: 18px;
     color: #fff;
     font-weight: normal;
-    margin-top: 8px;
-    margin-bottom: 5px;
-    display: inline-block;    
+    display: flex;       
 }
 
 .small {
@@ -1200,27 +1158,11 @@
 }
 
 .event {
-    width: 115px;
-    height: 30px;
-    background: #4fc4f6;
-    font-size: 11px;
-    color: white;
-    border-width: 1.5px 0;
-    border-style: solid;
-    border-color: #979bc6 #6d6e70 #707287;
-    border-radius: 4px;
-
+   margin: auto;
 }
 
 .event:hover {
-    background: linear-gradient(#4fc4f6, #074344);
-    cursor: pointer;
-    animation: pulsate 1.5s linear infinite;
-}
-
-.event:active {
-    background: linear-gradient(#074344, #4fc4f6);
-    animation-play-state: paused;
+    background: linear-gradient(#4fc4f6, #074344);  
 }
 
 .calendar {
@@ -1263,24 +1205,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .today {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-day {
     width: 20px;
     height: 20px;
     background-color: #e64c65;
-    border-radius: 50%;
-    font-weight: bold;
-    font-size: 10px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-
 .future {
-    font-weight: bold;
     color: white;
 }
 
