@@ -99,7 +99,7 @@ body {
 
 .blockhov:hover {
     background: #50587c;
-    box-shadow: inset 0 -3px 3px #11a8ab;
+    box-shadow: inset 0 -3px 0 0 #11a8ab;
     cursor: pointer;
 }
 
@@ -190,17 +190,16 @@ body {
 }
 
 .text-blocks {
-    display: inline-block;
+    display: flex;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 11px; 
-    border: 1px solid red;       
+    font-size: 11px;          
 }
 
 .upper {
     position: relative;
-    top: -2px;
-    font-size: 6px;
+    top: 0;
+    font-size: 7px;
 }
 
 .block-top {
@@ -279,7 +278,7 @@ body {
 
 
 .progress-value {
-    display: inline-block;
+    display: flex;
     
 }
 
@@ -375,6 +374,11 @@ body {
 .grey {
     color: #9099b7;
     font-weight: bold;      
+}
+
+.gr {
+    color: #9099b7;
+    font-weight: bold;     
 }
 
 .red-text {
@@ -798,6 +802,10 @@ body {
     margin-left: 20px;
 }
 
+.margin-l {
+    margin-left: 5px;
+}
+
 .margin-bottom {
     margin-bottom: 18px;
 }
@@ -872,8 +880,7 @@ body {
     border-radius: 0 4px 4px 0;
 }
 .smallblock:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 1.5px #50587c;
+    cursor: pointer;    
 }
 
 .sharing {
@@ -908,31 +915,33 @@ body {
 }
 
 .email {
-    width: 170px;
+    width: 130px;
     height: 30px;
     border-radius: 4px;
     border: 1px solid #11a8ab;
     display: flex;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
     font-size: 10.5px;
-    color: white;
+    color: white;    
     margin-bottom: 12px;
+    outline:0;
    
 }
 
 
 .password {
-    width: 170px;
+    width: 130px;
     height: 30px;
     border-radius: 4px;
     border: 1px solid #1f253d;
     display: flex;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
     font-size: 10.5px;
-    color: #9099b7;
+    color: #9099b7;    
     margin-bottom: 18px;
+    outline:0;
 }
 
 .icon {
@@ -941,7 +950,7 @@ body {
     background-color: #50587c;
     background-repeat: no-repeat;
     background-position: 10px;
-    
+    padding-left: 40px;   
 }
 
 .icon2 {
@@ -950,7 +959,7 @@ body {
     background-size: 16px;
     background-repeat: no-repeat;
     background-position: 10px;
-    
+    padding-left: 40px;    
 }
 
 .button {
@@ -974,6 +983,9 @@ body {
     margin: auto;    
 }
 
+.button:focus {
+    outline: 0;
+}
 
 .sign-in {
     width: 200px;
@@ -1037,6 +1049,10 @@ body {
     margin-right: 5px;
 }
 
+.sign-bottom:hover {
+    cursor: pointer;
+}
+
 .progress-bar {
     width: 200px;
     border-radius: 4px;
@@ -1059,25 +1075,23 @@ body {
 }
 
 
-.progress[value] {
+.progress {
     height: 15px;
     width: 166px;
-    appearance: none;
-    border-radius: 4px;
-    background-color: #50597b;
-    
+    display: flex;
+    border-radius: 4px;     
 }
 
-#progress-upper[value]::-webkit-progress-value {
-    background-color: #11a8ab;
-    border-radius: 4px 0 0 4px;
-    
+#progress-upper {
+   background-image: url(progress1.png);
+   background-size: 166px;
+   background-repeat: no-repeat;   
 }
 
-#progress-down[value]::-webkit-progress-value {
-    background-color: #4fc4f6;
-    border-radius: 4px 0 0 4px;
-   
+#progress-down {
+    background-image: url(progress2.png);
+    background-repeat: no-repeat;
+    background-size: 166px;     
 }
 
 
